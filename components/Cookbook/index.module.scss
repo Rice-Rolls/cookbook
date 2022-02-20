@@ -1,0 +1,12 @@
+.cookbook {
+  .code {
+    background: rgba(150, 150, 150, 0.1);
+    display: flex;
+    flex-direction: column;
+    code {
+      font-size: 16px;
+      background: initial;
+      border: none;
+    }
+  }
+}

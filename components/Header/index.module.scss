@@ -1,0 +1,12 @@
+.header {
+  padding: 10px 0;
+  display: flex;
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .search {
+    margin-left: 20px;
+  }
+}
