@@ -8,6 +8,8 @@ const eggAndTomatoStirFry: MenuItem = {
   functionName: 'eggAndTomatoStirFry',
   materials: [materials.tomato, materials.egg, materials.greenOnion],
   kitchenWares: [kitchenWares.fryPan],
+  time: 6000,
+  img: 'eggAndTomatoStirFry.jpeg',
   steps: [
     {
       type: 'assign',

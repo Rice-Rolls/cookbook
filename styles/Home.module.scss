@@ -1,4 +1,9 @@
+$headerHeight: 60px;
+$footerHeight: 80px;
 
+.container {
+  min-height: 100vh;
+}
 
 .header{
   position: sticky;
@@ -7,15 +12,23 @@
   padding: 0 2rem;
   z-index: 1000;
   background-color: #fff;
+  height: $headerHeight;
 }
 
 .main {
-  min-height: 100vh;
+  height: calc(100vh - $footerHeight - $headerHeight);
   padding: 0 2rem;
   flex: 1;
   display: flex;
+  justify-content: space-between;
   .menu{
-    flex-basis: 280px;
+    flex-basis: 15%;
+    min-width: 280px;
+  }
+  .cookbook {
+    margin-top: 24px;
+    display: flex;
+    flex: 0 0 75%;
   }
 }
 
@@ -26,6 +39,7 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  height: $footerHeight;
 }
 
 .footer a {

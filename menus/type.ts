@@ -10,6 +10,8 @@ export interface MenuItem {
   materials?: string[];
   kitchenWares?: string[];
   steps: Step[]
+  time: number
+  img: string
 }
 
 export interface BaseStep {

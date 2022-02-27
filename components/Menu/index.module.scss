@@ -1,0 +1,21 @@
+.menu {
+  height: 90%;
+  padding: 10px;
+  margin-top: 20px;
+  box-shadow: 0 18px 35px rgb(50 50 93 / 10%), 0 8px 15px rgb(0 0 0 / 7%);
+  h2{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #C8C8C8;
+  }
+  .category{
+    // color: #E46768;
+  }
+  .dishes {
+    padding-left: 10px;
+    .dish {
+      background-color: #F1F5FB;
+      border-radius: 10px;
+      padding: 5px 10px;
+    }
+  }
+}
